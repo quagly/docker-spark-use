@@ -14,7 +14,7 @@
 set -euo pipefail
 
 docker run \
-  --rm     \
+  --rm -it    \
   quagly/spark \
   spark-submit \
     --master local[*] \
