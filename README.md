@@ -3,7 +3,8 @@ Examples of how to use my spark container from https://cloud.docker.com/reposito
 
 Show how to use JupyterLab and spark-submit
 
-* test.sh - run a spark-submit to validate container
+* test.sh - run a spark-submit to validate vanilla container
+* login.sh - login to vanilla container to poke around
 * run.sh - start container, use jupyter, use custom spark configuration
 * run-default-conf.sh - start continer, use jupyter, use default configuration
 
@@ -13,3 +14,4 @@ The purpose of this project is to provide a single environmnet for both
 spark-submit and jupyter
 
 * test-running - run spark-submit on running container
+* login-running - login to container
