@@ -19,7 +19,9 @@ source .config
 # consider conditionallly mounting based on config
 # or defining named volumes seperately and mounting here
 # consider using docker compose if getting that sophisticated
-docker run -it --rm -p 127.0.0.1:8888:8888 \
+docker run -it --rm \
+  --publish 127.0.0.1:8888:8888 \
+  --publish 127.0.0.1:4040:4040 \
   --name ${CONTAINER_NM} \
   --user root \
   -e NB_UID=${MY_UID} \
