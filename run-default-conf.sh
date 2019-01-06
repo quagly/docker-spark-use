@@ -29,4 +29,4 @@ docker run -it --rm -p 127.0.0.1:8888:8888 \
   --mount type=bind,source=${MY_NOTEBOOK_DIR},target=/home/jovyan/work \
   --mount type=bind,source=${MY_DATA_DIR},target=/home/jovyan/data \
   --mount type=bind,source=${MY_APP_DIR},target=/home/jovyan/spark-app \
-  quagly/spark
+  ${IMAGE_NM}

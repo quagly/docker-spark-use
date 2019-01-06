@@ -1,5 +1,8 @@
 # docker-spark-use
-Examples of how to use my spark container from https://cloud.docker.com/repository/docker/quagly/spark
+Examples of how to use my spark-all container from
+[docker hub](https://cloud.docker.com/repository/docker/quagly/spark-all)
+Which is autobuilt from tagged releases in
+[repo](https://github.com/quagly/docker-spark-create)
 
 Show how to use JupyterLab and spark-submit
 
@@ -14,7 +17,7 @@ The purpose of this project is to provide a single environmnet for both
 spark-submit and jupyter
 
 * test-running - run spark-submit on running container
-* login-running - login to container
+* login-running - login to running container
 
 depends on project [gill](https://github.com/quagly/gill)
 existing and egg file generated

@@ -8,5 +8,5 @@ source .config
 # just to check it out
 docker run \
   --rm -it \
-  quagly/spark \
+  ${IMAGE_NM} \
   bash -il
