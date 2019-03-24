@@ -23,3 +23,5 @@ depends on project [gill](https://github.com/quagly/gill)
 existing and egg file generated
 and spark application directory mounted
 * egg-running - run custom spark application on running container
+
+source .config file to set environment variables of scripts
